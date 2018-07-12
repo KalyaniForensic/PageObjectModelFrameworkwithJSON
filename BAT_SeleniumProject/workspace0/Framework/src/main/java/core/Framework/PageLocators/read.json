@@ -1,0 +1,41 @@
+{
+ "LoginTest":
+{
+"1":"id:login:sendkeys:hr",
+"2":"id:password:sendkeys:1",
+"3":"id:btn_login:click:click"
+
+},
+
+"ITsChekinForm":{
+
+"1":"xpath://a[text()='ITS Check-in Form']:click:click",
+"2" :"id:hr_requester:sendkeys:pankaj",
+"3":"id:hiring_manager:sendkeys:manoj",
+"4":"id:first_name:sendkeys:digya",
+"5":"id:last_name:sendkeys:kumar",
+"6":"id:date_of_birth:sendkeys:17.05.2018",
+"7":"id:Gender:selectbytext:Male"
+
+},
+
+"HRCriteriaReport":{
+
+"1":"xpath://a[text()='Reports']:click:click",
+"2":"xpath://a[text()='HR Report With Criteria']:click:click",
+"3":"xpath://select[@id='teams']:selectbytext:BAT",
+"4":"xpath://input[@name='usernames']:checkboxlist:Check Duplicate"
+
+},
+
+"GenerateFavouriteRport":{
+
+"1":"xpath://a[text()='Reports']:click:Click"
+
+
+}
+
+
+
+}
+

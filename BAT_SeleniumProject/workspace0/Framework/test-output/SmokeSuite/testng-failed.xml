@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [SmokeSuite]" guice-stage="DEVELOPMENT">
+  <test parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="core.Framework.TestScripts.TC_01">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="LoginTC"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- core.Framework.TestScripts.TC_01 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->

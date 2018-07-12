@@ -1,0 +1,29 @@
+{
+	"LoginActionsValidUser":
+	[
+		{"elementName":"username","elementAttributeType":"id","elementAttributeValue":"email","actionMeta":"Enter","actionValue":"","value":""},
+		{"elementName":"password","elementAttributeType":"id","elementAttributeValue":"password","actionMeta":"Enter","actionValue":"","value":""},
+		{"elementName":"button","elementAttributeType":"name","elementAttributeValue":"submit","actionMeta":"click","actionValue":"click","value":""}
+		
+	],
+	
+	"LoginActionsInValidUser":
+	[
+		{"elementName":"Iusername","elementAttributeType":"id","elementAttributeValue":"email","actionMeta":"Enter","actionValue":"","value":""},
+		{"elementName":"password","elementAttributeType":"id","elementAttributeValue":"password","actionMeta":"Enter","actionValue":"","value":""},
+		{"elementName":"button","elementAttributeType":"name","elementAttributeValue":"submit","actionMeta":"click","actionValue":"click","value":""}
+		
+		
+	],
+	"Registration":
+	[
+		{"elementName":"Link","elementAttributeType":"xpath","elementAttributeValue":"//a[text()='ITS Check-in Form']","actionMeta":"click","actionValue":"click","value":""},
+		{"elementName":"HR Requester","elementAttributeType":"id","elementAttributeValue":"hr_requester","actionMeta":"Enter","actionValue":"","value":""},
+		{"elementName":"Hiring Manager","elementAttributeType":"id","elementAttributeValue":"hiring_manager","actionMeta":"Enter","actionValue":"","value":""},
+		{"elementName":"First Name","elementAttributeType":"id","elementAttributeValue":"first_name","actionMeta":"Enter","actionValue":"","value":""},
+		{"elementName":"Last Name","elementAttributeType":"id","elementAttributeValue":"last_name","actionMeta":"Enter","actionValue":"","value":""},
+		{"elementName":"Gender","elementAttributeType":"id","elementAttributeValue":"Gender","actionMeta":"selectbytext","actionValue":"","value":""},
+		{"elementName":"Role","elementAttributeType":"id","elementAttributeValue":"role","actionMeta":"selectbytext","actionValue":"","value":""}
+	]
+	
+}
